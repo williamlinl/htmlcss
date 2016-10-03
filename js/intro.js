@@ -10,6 +10,12 @@ function mouseOut(){
 	nameDiv.style.color = "#fff";
 }
 
+function writeTime(id){
+	setInterval(function(){
+		fnDate(id);
+	},1000);
+}
+
 function fnDate(id){
 	var oDiv = document.getElementById(id);
 	var date = new Date();
