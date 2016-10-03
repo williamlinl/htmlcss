@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<script type="text/javascript" src="js/intro.js"></script>
+	<script>
+		window.onload=function(){
+			setInterval(function(){
+				fnDate("showTime");
+			},1000)
+		}
+	</script>
+</head>
+<body>
+	<div class="index-title">
+		<div class="title-content">
+			<ul id="navigation-menu">
+				<li><a href="" class="nav-item-selected">INTRO</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">GALLERY</a></li>
+				<li><a href="" >CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="intro-content">
+		<h2 id="myname" onmouseover="mouseOver()" onmouseout="mouseOut()" >WILLIAM LIN</h2>
+		<div class="intro-me">
+			<p>		人之初，性本善。性相近，习相远。
+				<br>苟不教，性乃迁。教之道，贵以专。
+				<br>昔孟母，择邻处。子不学，断机杼。
+			</p>
+
+		</div>
+	</div>
+	<footer>
+		<p id="showTime"><script>fnDate("showTime")</script></p>		
+	</footer>
+</body>
+</html>
